@@ -8,4 +8,4 @@ career = playercareerstats.PlayerCareerStats(player_id='203999');
 # Get Nikola Jokic's total stats
 totals = career.season_totals_regular_season.get_data_frame();
 
-print (totals);
+print ("\nNikola Jokic's career stats:\n", totals);
